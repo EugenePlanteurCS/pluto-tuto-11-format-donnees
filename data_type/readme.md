@@ -12,8 +12,18 @@ which contexts to use them most effectively. It will be divided into several jup
 5) [Data optimization](./data_optimization.ipynb)
 
 For each tutorial, sample data will be provided in the `sample_data` directory or automatically
-downloaded (in the `sample_data` directory by default)
+downloaded (in the `sample_data` directory by default). This means that an internet connection is
+required to run these notebooks. Alternatively, you can manually download data from other providers
+and use them to run the notebooks. In some examples, benchmarks are ran and performances are 
+compared between different formats, but the data used for these tests is generally quite small, 
+mostly used as example. Using real, larger datasets highlights better the performance discrepancies
+between formats. For example, you can use real Sentinel-2 or SWOT products (#todo: link to swot
+pluto tutorial).
 
+Some notebooks showcase how to visualize the data from the different file types, but you can find 
+more detailed tutorials [here](https://pluto.pages.cnes.fr/portal/data/miscellaneous/tuto_python_visu_tools_spatial_data.html).
+
+## Installation
 
 To run a notebook, first create a virtual environment using pip. Then, install the required 
 packages (if not already done), using the `requirements.txt` file.
