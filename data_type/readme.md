@@ -35,8 +35,8 @@ packages (if not already done), using the `requirements.txt` file.
 
 ```bash
 python -m venv venv
-pip install -r requirements.txt
 source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 Then you can simply use `jupyter notebook xxx.ipynb` to run the corresponding notebook.
