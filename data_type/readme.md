@@ -17,8 +17,13 @@ required to run these notebooks. Alternatively, you can manually download data f
 and use them to run the notebooks. In some examples, benchmarks are ran and performances are 
 compared between different formats, but the data used for these tests is generally quite small, 
 mostly used as example. Using real, larger datasets highlights better the performance discrepancies
-between formats. For example, you can use real Sentinel-2 or SWOT products (#todo: link to swot
-pluto tutorial).
+between formats. For example, in the [raster tutorial](./raster_formats.ipynb) you can use real
+Sentinel-2 data, downloadable from [geodes](https://geodes-portal.cnes.fr/) or
+[copernicus](https://browser.dataspace.copernicus.eu/). For the [point clouds](./point_clouds.ipynb)
+ or [datacube](./datacube_formats.ipynb) tutorials, you can use SWOT data, available on
+[hydroweb next](https://hydroweb.next.theia-land.fr/) (with netcdf files for example). For SWOT
+data, you can also check out this tutorial (TBD).
+
 
 Some notebooks showcase how to visualize the data from the different file types, but you can find 
 more detailed tutorials [here](https://pluto.pages.cnes.fr/portal/data/miscellaneous/tuto_python_visu_tools_spatial_data.html).
